@@ -1,0 +1,41 @@
+@import "variables";
+aside {
+    div {
+        background-color: #ffde59;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+.imagen-aside {
+    background-color: #ffde59;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    max-height: 220px;
+}
+
+.row {
+    margin-right: 0;
+}
+
+aside {
+    div {
+        a {
+            font-size: x-large;
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+    }
+
+}
+
+aside {
+    div {
+        img {
+            margin: 20px auto;
+            animation-duration: 2s;
+            animation-name: aparecer;
+        }
+    }
+}

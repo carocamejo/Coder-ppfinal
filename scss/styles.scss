@@ -1,0 +1,31 @@
+@import "variables";
+@import "header";
+@import "main";
+@import "aside";
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    font-size: xx-large;
+    color: white;
+    background-color: #9d248e;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+.grid-inicio {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.fondo {
+    background-color: white;
+}
