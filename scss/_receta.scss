@@ -1,0 +1,37 @@
+@import "variable";
+.receta-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4em 2em;
+    flex-wrap: wrap;
+}
+
+.receta {
+    background-color: $fondo-blanco;
+    border: 4px solid #9d248e;
+    width: 550px;
+    margin: 30px;
+    line-height: 150%;
+    color: #414ca0;
+
+    h2 {
+        color: $color-texto;
+        background-color: $fondo-violeta;
+        padding: 20px;
+    }
+
+    h3 {
+        color: #9d248e;
+    }
+}
+
+.imagen-receta {
+    img {
+        width: 300px;
+    }
+}
+
+.texto-receta {
+    margin: 30px;
+}

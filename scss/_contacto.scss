@@ -1,0 +1,44 @@
+@import "variable";
+.contacto-main {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: #9d248e;
+}
+
+form {
+    fieldset {
+        text-decoration: none;
+        padding: 20px 20px;
+        line-height: 150%;
+        background-color: $fondo-blanco;
+    }
+}
+
+textarea {
+    width: 456px;
+    height: 155px;
+}
+
+input {
+    text-decoration: none;
+    border: 1px solid #9d248e;
+}
+
+.menu-desplegable-contacto {
+    color: #9d248e;
+    border: 1px solid #9d248e;
+    padding: 10px;
+}
+
+.botton-contacto {
+    display: flex;
+    justify-content: space-around;
+
+    input {
+        background-color: $fondo-violeta;
+        color: $color-texto;
+        padding: 10px;
+    }
+}

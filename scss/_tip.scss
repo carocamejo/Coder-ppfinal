@@ -1,0 +1,18 @@
+@import"variable";
+
+.tip {
+    background-color: $fondo-blanco;
+    border: 4px solid #414ca0;
+    line-height: 200%;
+    color: #414ca0;
+}
+
+.tip-texto {
+    margin: 15px;
+}
+
+.tip-imagen {
+    img {
+        width: 300px;
+    }
+}

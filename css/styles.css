@@ -50,6 +50,17 @@ aside div img {
   animation-name: aparecer;
 }
 
+footer div {
+  padding: 10px;
+  color: #414ca0;
+  background-color: #eaaecf;
+  text-align: center;
+}
+
+.img-footer {
+  width: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +89,82 @@ h1 {
 
 .fondo {
   background-color: white;
+}
+
+.imagenmenu {
+  width: 600px;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: large;
+  }
+  .grid-inicio {
+    display: inline;
+  }
+  header div img {
+    width: 200px;
+    display: inline;
+  }
+  main div p {
+    padding: 0;
+  }
+  main p {
+    width: max-content 992px;
+  }
+  aside div {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: large;
+  }
+  .grid-inicio {
+    display: inline;
+  }
+  header div img {
+    width: 200px;
+    display: inline;
+  }
+  main div p {
+    padding: 0;
+  }
+  main p {
+    width: max-content 768px;
+  }
+  img {
+    width: 100px;
+  }
+  .imagenmenu {
+    width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: medium;
+  }
+  .grid-inicio {
+    display: inline;
+  }
+  header div img {
+    width: 150px;
+    display: inline;
+  }
+  header nav ul {
+    gap: 0rem;
+  }
+  .imagenmenu {
+    width: 200px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
