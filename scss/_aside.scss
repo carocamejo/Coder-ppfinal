@@ -1,14 +1,14 @@
 @import "variables";
 aside {
     div {
-        background-color: #ffde59;
+        background-color: $fondo-amarillo;
         text-align: center;
         padding: 20px;
     }
 }
 
 .imagen-aside {
-    background-color: #ffde59;
+    background-color:$fondo-amarillo;
     animation-duration: 2s;
     animation-name: aparecer;
     max-height: 220px;

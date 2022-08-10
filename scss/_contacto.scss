@@ -1,4 +1,4 @@
-@import "variable";
+@import "variables";
 .contacto-main {
     padding: 30px 100px;
     display: flex;
@@ -13,6 +13,8 @@ form {
         padding: 20px 20px;
         line-height: 150%;
         background-color: $fondo-blanco;
+        border: 2px solid $color-texto-violeta;
+        border-radius: 10px;
     }
 }
 
@@ -24,6 +26,7 @@ textarea {
 input {
     text-decoration: none;
     border: 1px solid #9d248e;
+    line-height: 200%;
 }
 
 .menu-desplegable-contacto {

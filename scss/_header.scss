@@ -9,6 +9,9 @@ header {
                     text-decoration: none;
                     font-size: large;
                     text-align: center;
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    font-weight: bolder;
                 }
 
             }
@@ -20,4 +23,8 @@ div {
     img {
         width: 250px;
     }
+}
+
+#violeta {
+    color: $color-texto-violeta;
 }
